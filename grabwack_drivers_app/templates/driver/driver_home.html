@@ -1,0 +1,7 @@
+driver
+{% block page %}
+driver home
+{% endblock %}
+
+<a href="{% url 'driver-sign-out' %}?next={{ request.path }}"
+    class="btn btn-pink">Logout</a>

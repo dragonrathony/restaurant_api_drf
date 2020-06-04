@@ -1,0 +1,7 @@
+customer
+{% block page %}
+customer home
+{% endblock %}
+
+<a href="{% url 'customer-sign-out' %}?next={{ request.path }}"
+    class="btn btn-pink">Logout</a>
