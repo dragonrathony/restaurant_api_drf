@@ -8,7 +8,7 @@ django-braces==1.13.0
 django-oauth-toolkit==1.2.0
 django-rest-framework-social-oauth2==1.1.0
 django-templated-mail==1.1.1
-djangorestframework==3.9.2
+djangorestframework==3.11.2
 djoser==2.0.3
 fcm-django==0.3.4
 gunicorn==20.0.4
